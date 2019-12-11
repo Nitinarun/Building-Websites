@@ -1,0 +1,380 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>index.html</title>
+</head>
+
+<style>
+<!--This is the spacing-->
+h1 {
+   margin: 0;
+   padding: 0;
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+li {
+  float: left;
+}
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+li a:hover {
+  background-color: #111;
+}
+li {
+  border-right: 1px solid #ffa500;
+}
+li:last-child {
+  border-right: none;
+}
+li a:hover:not(.active) {
+  background-color: #111;
+}
+.active {
+  background-color: #ffa500;
+}
+* {
+  box-sizing: border-box;
+}
+.column {
+  float: left;
+  width: 33.33%;
+  padding: 5px;
+}
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+</style>
+
+<body bgcolor="#a6a6a6">
+<h1> <U>CS01120 Assignment 5 : Online Presence</u></h1>
+
+<ul>
+    <li><a class="active" href="index.html">Home</a></li>
+    <li><a href="About Me.html">About Me</a></li>
+    <li><a href = "Contact Details.html">Contact Details</a></li>
+    <li><a href="Achievements.html">Achievements</a></li>
+</ul>
+
+<div class="row">
+  <div class="column">
+    <img src="https://images.unsplash.com/photo-1550645612-83f5d594b671?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&w=1000&q=80" alt="Image" height ="300">
+  </div>
+  <div class="column">
+    <img src="http://hd.wallpaperswide.com/thumbs/programming_2-t2.jpg" alt="Image" height="300">
+  </div>
+</div>
+
+<h3><U>Introduction:</U></h3>
+<p><font size="+1">To whoever is viewing this page, Welcome!!!<br/>This is a website that is going to give you an insight on me, Nitin Devin Arun
+    <br/> By the way, I should just mention that this is for my University Assignment 5 of the CS01120 Module.</font></p>
+<h3><U>Aim:</U></h3>
+<p><font size="+1">The Purpose of this Assignment is for us to apply the information on HTML & CSS that we have learnt through the previous assignment in our Practical lessons.
+    <br/>By creating this website, it sets us as individuals to have an online presence not only on the Internet, but also within the University.</font> </p>
+
+<footer>
+    <h3><u>Footer:</u></h3>
+    <p>The information provided on this and other pages by me, Nitin Devin Arun(ara16@aber.ac.uk), is under my own personal responsibility and not that of the Aberystwyth University.
+      <br/> Similarly, any opinions expressed are my own and are in no way to be taken as those of Aberystwyth University.<p/>
+</footer>
+
+</body>
+</html>
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>About Me</title>
+</head>
+<style>
+<!--This is the spacing-->
+h1 {
+   margin: 0;
+   padding: 0;
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+li {
+  float: left;
+}
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+li a:hover {
+  background-color: #111;
+}
+li {
+  border-right: 1px solid #ffa500;
+}
+li:last-child {
+  border-right: none;
+}
+li a:hover:not(.active) {
+  background-color: #111;
+}
+.active {
+  background-color: #ffa500;
+}
+* {
+  box-sizing: border-box;
+}
+.column {
+  float: left;
+  width: 33.33%;
+  padding: 5px;
+}
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+</style>
+<body bgcolor="#a6a6a6">
+<h1> <U>CS01120 Assignment 5 : Online Presence</u></h1>
+
+<ul>
+    <li><a href="index.html">Home</a></li>
+    <li><a class ="active" href="About Me.html">About Me</a></li>
+    <li><a href = "Contact Details.html">Contact Details</a></li>
+    <li><a href="Achievements.html">Achievements</a></li>
+</ul>
+<img src="https://geology.com/world/map/map-of-malaysia.gif">
+<img src="https://image.jimcdn.com/app/cms/image/transf/dimension=683x10000:format=jpg/path/sb97633a4ffd1294b/image/i5bbbd714e8d50367/version/1518112206/scuba-diving-in-thailand.jpg" alt="Image" height="200">
+<img src="https://cdn.digitaldjtips.com/app/uploads/2019/05/03151228/feature_site1-1204x642.jpg" alt="Image" height="200" width="400">
+<h3><U>About Me:</U></h3>
+<p><font size="+1">So who am I ?<br/>Let's start of with the basics, my name is Nitin Devin Arun.<br/>
+    Currently aged 18 years old and born on 23rd December 2000
+    <br/>I was born and raised in Kuala Lumpur, Malaysia.
+    <br/>For those of you that don't know where that is, the image above shows it.
+    <br/>After much of my schooling life in KL, I have now moved to Aberystwyth for University.
+<h3><u>Passions & Hobbies:</u></h3>
+    <p>To list a couple of my hobbies & passions, I am heavily invested into cars; more specifically Performance cars.
+    <br/>On top of that, I am also a DJ and have been posting mixes & content on Instagram.
+    <br/> Lastly, I have an extensive passion for diving and Underwater Videography. I post all of my videos on FaceBook.
+    <br/> Find my videos for my DJing @nitinarun on Instagram & my diving videos @Nitin Arun on FaceBook.
+    <br/>In Conclusion, I am a pretty average guy with a semi-interesting life.</font></p>
+
+<footer>
+    <h3><u>Footer:</u></h3>
+    <p>The information provided on this and other pages by me, Nitin Devin Arun(ara16@aber.ac.uk), is under my own personal responsibility and not that of the Aberystwyth University.
+      <br/> Similarly, any opinions expressed are my own and are in no way to be taken as those of Aberystwyth University.<p/>
+</footer>
+</body>
+</html>
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Contact Details</title>
+</head>
+<style>
+    <!--This is the spacing-->
+h1 {
+   margin: 0;
+   padding: 0;
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+li {
+  float: left;
+}
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+li a:hover {
+  background-color: #111;
+}
+li {
+  border-right: 1px solid #ffa500;
+}
+li:last-child {
+  border-right: none;
+}
+li a:hover:not(.active) {
+  background-color: #111;
+}
+.active {
+  background-color: #ffa500;
+}
+* {
+  box-sizing: border-box;
+}
+.column {
+  float: left;
+  width: 33.33%;
+  padding: 5px;
+}
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+</style>
+<body bgcolor="#a6a6a6">
+<h1> <U>CS01120 Assignment 5 : Online Presence</u></h1>
+
+<ul>
+    <li><a href="index.html">Home</a></li>
+    <li><a href="About Me.html">About Me</a></li>
+    <li><a class ="active" href = "Contact Details.html">Contact Details</a></li>
+    <li><a href="Achievements.html">Achievements</a></li>
+</ul>
+
+<img src="https://www.freepnglogos.com/uploads/snapchat-icon-logo-png-15.png" alt="Image" height="300" width ="300">
+<img src="https://www.freepnglogos.com/uploads/best-instagram-logo-download-here-15.png" alt="Image" height="300" width="300">
+<img src="https://cdn3.iconfinder.com/data/icons/facebook-ui-flat/48/Facebook_UI-03-512.png" alt="Image" height="300" width="300">
+<h3><u>My Contact Details:</u></h3>
+<p><font size ="+1">Name: Nitin Devin Arun <br/>Phone Number: +4407923383424<br/>Email: nitinarun29@gmail.com </font></p>
+<p><font size ="+1"><u>Socials:</u></font></p>
+<p><font size ="+1">Instagram: @nitinarun<br/>SnapChat: @exodusnitin<br/>Facebook: @Nitin Arun</font></p>
+
+<footer>
+    <h3><u>Footer:</u></h3>
+    <p>The information provided on this and other pages by me, Nitin Devin Arun(ara16@aber.ac.uk), is under my own personal responsibility and not that of the Aberystwyth University.
+      <br/> Similarly, any opinions expressed are my own and are in no way to be taken as those of Aberystwyth University.<p/>
+</footer>
+</body>
+</html>
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Achievements</title>
+</head>
+<style>
+<!--This is the spacing-->
+h1 {
+   margin: 0;
+   padding: 0;
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+li {
+  float: left;
+}
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+li a:hover {
+  background-color: #111;
+}
+li {
+  border-right: 1px solid #ffa500;
+}
+li:last-child {
+  border-right: none;
+}
+li a:hover:not(.active) {
+  background-color: #111;
+}
+.active {
+  background-color: #ffa500;
+}
+* {
+  box-sizing: border-box;
+}
+.column {
+  float: left;
+  width: 33.33%;
+  padding: 5px;
+}
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+* {box-sizing: border-box}
+
+.container {
+  width: 100%;
+  background-color: #ddd;
+}
+
+.skills {
+  text-align: right;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  color: white;
+}
+.html {width: 68%; background-color: #4CAF50;}
+.css {width: 75%; background-color: #2196F3;}
+.js {width: 65%; background-color: #f44336;}
+</style>
+<body bgcolor="#a6a6a6">
+<h1> <U>CS01120 Assignment 5 : Online Presence</u></h1>
+
+<ul>
+    <li><a href="index.html">Home</a></li>
+    <li><a href="About Me.html">About Me</a></li>
+    <li><a href = "Contact Details.html">Contact Details</a></li>
+    <li><a class = "active" href="Achievements.html">Achievements</a></li>
+</ul>
+<h3><u>My Skills:</u></h3>
+<p>HTML</p>
+<div class="container">
+  <div class="skills html">68%</div>
+</div>
+
+<p>CSS</p>
+<div class="container">
+  <div class="skills css">75%</div>
+</div>
+
+<p>JavaScript</p>
+<div class="container">
+  <div class="skills js">65%</div>
+</div>
+
+<footer>
+    <h3><u>Footer:</u></h3>
+    <p>The information provided on this and other pages by me, Nitin Devin Arun(ara16@aber.ac.uk), is under my own personal responsibility and not that of the Aberystwyth University.
+      <br/> Similarly, any opinions expressed are my own and are in no way to be taken as those of Aberystwyth University.<p/>
+</footer>
+</body>
+</html>
+
