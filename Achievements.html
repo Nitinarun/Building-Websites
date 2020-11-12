@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Achievements</title>
+</head>
+<style>
+<!--This is the spacing-->
+h1 {
+   margin: 0;
+   padding: 0;
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+li {
+  float: left;
+}
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+li a:hover {
+  background-color: #111;
+}
+li {
+  border-right: 1px solid #ffa500;
+}
+li:last-child {
+  border-right: none;
+}
+li a:hover:not(.active) {
+  background-color: #111;
+}
+.active {
+  background-color: #ffa500;
+}
+* {
+  box-sizing: border-box;
+}
+.column {
+  float: left;
+  width: 33.33%;
+  padding: 5px;
+}
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+* {box-sizing: border-box}
+
+.container {
+  width: 100%;
+  background-color: #ddd;
+}
+
+.skills {
+  text-align: right;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  color: white;
+}
+.html {width: 68%; background-color: #4CAF50;}
+.css {width: 75%; background-color: #2196F3;}
+.js {width: 65%; background-color: #f44336;}
+</style>
+<body bgcolor="#a6a6a6">
+<h1> <U>CS01120 Assignment 5 : Online Presence</u></h1>
+
+<ul>
+    <li><a href="index.html">Home</a></li>
+    <li><a href="About Me.html">About Me</a></li>
+    <li><a href = "Contact Details.html">Contact Details</a></li>
+    <li><a class = "active" href="Achievements.html">Achievements</a></li>
+</ul>
+<h3><u>My Skills:</u></h3>
+<p>HTML</p>
+<div class="container">
+  <div class="skills html">68%</div>
+</div>
+
+<p>CSS</p>
+<div class="container">
+  <div class="skills css">75%</div>
+</div>
+
+<p>JavaScript</p>
+<div class="container">
+  <div class="skills js">65%</div>
+</div>
+
+<footer>
+    <h3><u>Footer:</u></h3>
+    <p>The information provided on this and other pages by me, Nitin Devin Arun(ara16@aber.ac.uk), is under my own personal responsibility and not that of the Aberystwyth University.
+      <br/> Similarly, any opinions expressed are my own and are in no way to be taken as those of Aberystwyth University.<p/>
+</footer>
+</body>
+</html>

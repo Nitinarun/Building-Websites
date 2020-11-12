@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>index.html</title>
+</head>
+
+<style>
+<!--This is the spacing-->
+h1 {
+   margin: 0;
+   padding: 0;
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+li {
+  float: left;
+}
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+li a:hover {
+  background-color: #111;
+}
+li {
+  border-right: 1px solid #ffa500;
+}
+li:last-child {
+  border-right: none;
+}
+li a:hover:not(.active) {
+  background-color: #111;
+}
+.active {
+  background-color: #ffa500;
+}
+* {
+  box-sizing: border-box;
+}
+.column {
+  float: left;
+  width: 33.33%;
+  padding: 5px;
+}
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+</style>
+
+<body bgcolor="#a6a6a6">
+<h1> <U>CS01120 Assignment 5 : Online Presence</u></h1>
+
+<ul>
+    <li><a class="active" href="index.html">Home</a></li>
+    <li><a href="About Me.html">About Me</a></li>
+    <li><a href = "Contact Details.html">Contact Details</a></li>
+    <li><a href="Achievements.html">Achievements</a></li>
+</ul>
+
+<div class="row">
+  <div class="column">
+    <img src="https://images.unsplash.com/photo-1550645612-83f5d594b671?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&w=1000&q=80" alt="Image" height ="300">
+  </div>
+  <div class="column">
+    <img src="http://hd.wallpaperswide.com/thumbs/programming_2-t2.jpg" alt="Image" height="300">
+  </div>
+</div>
+
+<h3><U>Introduction:</U></h3>
+<p><font size="+1">To whoever is viewing this page, Welcome!!!<br/>This is a website that is going to give you an insight on me, Nitin Devin Arun
+    <br/> By the way, I should just mention that this is for my University Assignment 5 of the CS01120 Module.</font></p>
+<h3><U>Aim:</U></h3>
+<p><font size="+1">The Purpose of this Assignment is for us to apply the information on HTML & CSS that we have learnt through the previous assignment in our Practical lessons.
+    <br/>By creating this website, it sets us as individuals to have an online presence not only on the Internet, but also within the University.</font> </p>
+
+<footer>
+    <h3><u>Footer:</u></h3>
+    <p>The information provided on this and other pages by me, Nitin Devin Arun(ara16@aber.ac.uk), is under my own personal responsibility and not that of the Aberystwyth University.
+      <br/> Similarly, any opinions expressed are my own and are in no way to be taken as those of Aberystwyth University.<p/>
+</footer>
+
+</body>
+</html>
